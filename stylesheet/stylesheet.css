@@ -1,0 +1,136 @@
+/**--------------------GENERAL--------------------**/
+h1{
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+}
+
+/**--------------------Navigation Bar--------------------**/
+
+/*Navigation bar at the top*/
+.navbar {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: #152238;
+    z-index: 1000;
+    padding-right: 200px;       /*HELP PUT SPACE IN THE RIGHT*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Navigation bar "John Vincent P. Rabaca - BSCS1-3"*/
+.navbar .brandname {
+    display: flex;
+    justify-content: left;
+    margin-left: 1em;
+    padding-left: 1em;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/*Navigation bar Home, About, Skills, Contacts*/
+.navbar ul {
+    display: flex;
+    justify-content: right; 
+    list-style: none;           /* Removes the bullet points */
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 15px 0;
+}
+
+/*Navigation bar links*/
+.navbar a {
+    text-decoration: none;  /* Removes the underline */
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/*Spaces between buttons*/
+.navbar li {
+    margin: 0 20px;
+}
+
+/* Hover effect*/
+.navbar a:hover {
+    color: #1a3a6d; 
+}
+
+
+/**--------------------Home--------------------**/
+
+
+/*To remove the annoying white space in the sides*/
+
+
+/*To not center the introduction in the home (Since the texts were also h1)*/
+.introduction h1 {
+    text-align: left;
+    font-size: 5vw;
+    margin: 0.1em;
+}
+
+/*To put the quote into the left side*/
+.introduction h3 {
+    text-align: left;
+    font-size: 1.8vw;
+}
+
+/*Background*/
+.introduction{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: scroll;
+    background-size: 100% auto;
+    min-height: 500px; 
+    background-color: #eab091;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*A seperate class for texts and image (seperate from bg)*/
+/*For alignment*/
+.introduction2{
+    display: flex;              /* Puts items side-by-side*/
+    align-items: center;        /* Centers ALL items vertically*/
+    justify-content: center;    /* Centers the whole group on the page*/
+    gap: 50px;                  /* Space between the photo and the text*/
+    padding: 5vw;               /*distance to the edge, height & width*/
+}
+
+/*Texts for introduction and quote*/
+.bio-text {
+    color: white;       
+    font-family: sans-serif;
+}
+
+/*My picture*/
+.self-picture img {
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #0B2C5D;
+}
+
+/*Resume Button*/
+.resume-button {
+  display: inline-block;
+  margin-top: 0.1em;
+  padding: 10px 30px;
+  background-color: #000c26;
+  color: white;
+  border-radius: 50px;    /* Rounded button pill shape */
+  font-weight: bold;
+  border: 1px solid #1a3a6d;
+}
+
+/**--------------------About--------------------**/
