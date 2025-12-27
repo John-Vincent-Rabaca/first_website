@@ -1,10 +1,9 @@
 /**--------------------GENERAL--------------------**/
-h1 {
+/**To remove empty white space between Home and About**/
+h1, h2 {
     text-align: center;
-}
-
-h2 {
-    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 body {
@@ -140,9 +139,9 @@ body {
 .about-me-header {
     background-color: #000c26;
     text-decoration: underline skyblue;
-    display: flex;
+    /**    display: flex;**/
     justify-content: center;
-    font-size: 1vw;
+    font-size: 1.5vw;
     margin: 0px;
 }
 
@@ -154,4 +153,7 @@ body {
 
 .self-branding {
     font-size: 1.2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-indent: 40px;
 }
