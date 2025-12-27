@@ -1,9 +1,13 @@
 /**--------------------GENERAL--------------------**/
-h1{
+h1 {
     text-align: center;
 }
 
-body{
+h2 {
+    text-align: center;
+}
+
+body {
     margin: 0px;
 }
 
@@ -89,7 +93,6 @@ body{
     background-attachment: scroll;
     background-size: 100% auto;
     min-height: 500px; 
-    background-color: #eab091;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,3 +137,18 @@ body{
 }
 
 /**--------------------About--------------------**/
+.about-me-header {
+    background-color: #0B2C5D;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me {
+    background-color: #000c26;
+    font-family: sans-serif;
+    color: white;
+}
+
+.self-branding {
+    font-size: 1.2vw;
+}
