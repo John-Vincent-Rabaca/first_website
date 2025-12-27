@@ -165,8 +165,19 @@ body {
 /**__________Education Background__________**/
 .header {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .background {
     display: flex;
+}
+
+.timeline {
+    padding-left: 15vw;
+    max-width: 35vw;
+}
+
+.interests {
+    padding-left: 8vw;
+    max-width: 35vw;
 }
