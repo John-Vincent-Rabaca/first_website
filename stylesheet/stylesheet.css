@@ -18,6 +18,10 @@ h3 {
     margin-top: 0;
 }
 
+h5 {
+    color: white;
+}
+
 li {
     color: white;
     font-family: sans-serif;
@@ -318,9 +322,46 @@ body {
 
 
 /**--------------------Projects--------------------**/
+.projects-headers {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2vw;
+    font-size: 1vw;
+}
 
+.seperator {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2vw;
+}
 
+.personal-website {
+    display: flex;
+    width: 35vw;
+    border-right: 1px solid #ffffff33;
+    padding-right: 6.5vw;
+}
 
+.sari-sari-store-prices {
+    display: flex;
+    width: 35vw;
+}
+
+.personal-website img{
+    height: auto;
+    width: 400px;
+    margin-right: 20px;
+}
+
+.sari-sari-store-prices img {
+    height: auto;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.seperator h5 {
+    font-size: 1vw;
+}
 
 
 /**--------------------Contacts--------------------**/
