@@ -385,10 +385,12 @@ body {
   padding: 10px 30px;
   background-color: #152238;
   color: white;
-  border-radius: 50px;    /* Rounded button pill shape */
+  border-radius: 50px;
   font-weight: bold;
   border: 1px solid #1a3a6d;
   width: 6vw;
+  font-family: sans-serif;
+  padding-right: 10px;
 }
 
 .text-button-seperator1 {
