@@ -1,11 +1,23 @@
 /**--------------------GENERAL--------------------**/
-/**To remove empty white space between Home and About**/
-h1, h2, h3 {
+h2 {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    margin-top: 0;
+    
+}
+
+/**To remove empty white space between Home and About**/
 body {
     margin: 0px;
 }
@@ -146,7 +158,6 @@ body {
 .about-me-header {
     background-color: #000c26;
     text-decoration: underline skyblue;
-    /**    display: flex;**/
     justify-content: center;
     font-size: 1.5vw;
     margin: 0px;
@@ -160,6 +171,7 @@ body {
     padding-right: 20vw;
     text-indent: 40px;
     font-weight: lighter;
+    padding-bottom: 30px;
 }
 
 /**__________Education Background__________**/
@@ -171,15 +183,29 @@ body {
 
 .background {
     display: flex;
+    padding-bottom: 50px;
 }
 
 .timeline {
     padding-left: 15vw;
     max-width: 35vw;
-    text-indent: 40px;
+    border-right: 1px solid #ffffff33;
+    padding-right: 6.5vw;
+}
+
+.background .timeline ul {
+    text-align: left;
+}
+
+.background .timeline li {
+    text-align: left;
+    margin-bottom: 15px;
 }
 
 .interests {
-    padding-left: 8vw;
+    padding-left: 6.5vw;
     max-width: 35vw;
 }
+
+
+/**--------------------Skills--------------------**/
