@@ -1,6 +1,6 @@
 /**--------------------GENERAL--------------------**/
 /**To remove empty white space between Home and About**/
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -166,6 +166,7 @@ body {
 .header {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 2vw;
 }
 
 .background {
@@ -175,6 +176,7 @@ body {
 .timeline {
     padding-left: 15vw;
     max-width: 35vw;
+    text-indent: 40px;
 }
 
 .interests {
