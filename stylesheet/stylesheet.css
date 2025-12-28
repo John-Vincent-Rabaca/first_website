@@ -198,14 +198,16 @@ body {
 
 .background {
     display: flex;
+    justify-content: center; 
     padding-bottom: 50px;
+    width: 100%;            
 }
 
 .timeline {
-    padding-left: 15vw;
     max-width: 35vw;
     border-right: 1px solid #ffffff33;
     padding-right: 6.5vw;
+    text-align: left;       
 }
 
 .background .timeline ul {
@@ -220,6 +222,7 @@ body {
 .interests {
     padding-left: 6.5vw;
     max-width: 35vw;
+    text-align: left;
 }
 
 
