@@ -152,6 +152,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #0B2C5D;
+    padding-top: 2vw;
 }
 
 /*Resume Button*/
