@@ -208,6 +208,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 2vw;
+    font-size: 1vw;
 }
 
 .background {
@@ -220,8 +221,9 @@ body {
 .timeline {
     max-width: 35vw;
     border-right: 1px solid #ffffff33;
-    padding-right: 6.5vw;
+    padding-right: 8vw;
     text-align: left;       
+    font-size: 1vw;
 }
 
 .background .timeline ul {
@@ -234,9 +236,10 @@ body {
 }
 
 .interests {
-    padding-left: 6.5vw;
+    padding-left: 8vw;
     max-width: 35vw;
     text-align: left;
+    font-size: 1vw;
 }
 
 
@@ -391,7 +394,7 @@ body {
   border: 1px solid #1a3a6d;
   width: 6vw;
   font-family: sans-serif;
-  padding-right: 10px;
+  padding-right: 0.5vw;
 }
 
 .text-button-seperator1 {
