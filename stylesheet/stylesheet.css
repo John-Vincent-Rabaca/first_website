@@ -251,20 +251,24 @@ body {
     padding-bottom: 2.5vw;
 }
 
+ul {
+    list-style-position: inside;
+}
 
 /**__________Technical Skills__________**/
 .flip-card1 {
-    width: 300px;
-    height: 200px;
-    perspective: 1000px;
+    width: 15vw;
+    height: 10vw;
+    perspective: 50vw;
     padding-right: 5vw;
+    font-size: 0.75vw;
 }
 
 .technical {
     position: relative;
     width: 100%;
     height: 100%;
-    text-align: center;
+    text-align: left;
     transition: 0.6s;
     transform-style: preserve-3d;   /*Preserve as 3D*/
 }
@@ -278,10 +282,15 @@ body {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    border-radius: 10px;
+    border-radius: 0.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.technical .flip-card-back1 {
+    text-align: left;
+    padding-left: 1vw;
 }
 
 .flip-card-front1 {
@@ -297,9 +306,10 @@ body {
 
 /**__________Soft Skills__________**/
 .flip-card2 {
-    width: 300px;
-    height: 200px;
-    perspective: 1000px;
+    width: 15vw;
+    height: 10vw;
+    perspective: 50vw;
+    font-size: 0.75vw;
 }
 
 .soft {
@@ -320,7 +330,7 @@ body {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    border-radius: 10px;
+    border-radius: 0.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -337,7 +347,10 @@ body {
     transform: rotateY(180deg);
 }
 
-
+.soft .flip-card-back2 {
+    text-align: left;
+    padding-left: 1vw;
+}
 
 
 
@@ -370,13 +383,13 @@ body {
 .personal-website img{
     height: auto;
     width: 20vw;
-    margin-right: 20px;
+    margin-right: 1vw;
 }
 
 .sari-sari-store-prices img {
     height: auto;
     width: 12.5vw;
-    margin-right: 20px;
+    margin-right: 1vw;
 }
 
 .seperator h5 {
@@ -386,10 +399,10 @@ body {
 .text-button-seperator1 .button {
   display: inline-block;
   margin-top: 0.1vw;
-  padding: 10px 30px;
+  padding: 0.5vw 1.5vw;
   background-color: #152238;
   color: white;
-  border-radius: 50px;
+  border-radius: 2.5vw;
   font-weight: bold;
   border: 1px solid #1a3a6d;
   width: 6vw;
@@ -402,6 +415,19 @@ body {
     flex-direction: column;
 }
 
+.personal-website .text-button-seperator1 a {
+    font-size: 1vw;
+    padding-right: 1.5vw;
+}
+
+.sari-sari-store-prices .text-button-seperator1 a {
+    font-size: 1vw;
+    padding-right: 1.5vw;
+    margin-top: 2vw;
+}
+
+
+
 /**--------------------Contacts--------------------**/
 .contacts {
     text-align: center;
@@ -413,11 +439,20 @@ body {
 .contacts a {
     display: inline-block;
     background-color: black;
-    width: 50px;
-    height: 50px;
+    width: 2.5vw;
+    height: 2.5vw;
     border-radius: 50%;
     object-fit: cover;
     overflow: hidden;
     border: black;
 }
+
+.contacts img {
+    width: 2.5vw;
+}
+
+.contacts h2, h4 {
+    font-size: 1vw;
+}
+
 }
