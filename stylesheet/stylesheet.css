@@ -114,14 +114,14 @@ body {
 /*To not center the introduction in the home (Since the texts were also h1)*/
 .introduction h1 {
     text-align: left;
-    font-size: 5vw;
+    font-size: 5rem;
     margin: 0.1em;
 }
 
 /*To put the quote into the left side*/
 .introduction h3 {
     text-align: left;
-    font-size: 1.8vw;
+    font-size: 1.8rem;
 }
 
 /*Background*/
@@ -145,7 +145,7 @@ body {
     align-items: center;        /* Centers ALL items vertically*/
     justify-content: center;    /* Centers the whole group on the page*/
     gap: 50px;                  /* Space between the photo and the text*/
-    padding: 5vw;               /*distance to the edge, height & width*/
+    padding: 5rem;               /*distance to the edge, height & width*/
 }
 
 /*Texts for introduction and quote*/
@@ -156,18 +156,18 @@ body {
 
 /*My picture*/
 .self-picture img {
-    width: 35vw;
-    height: 35vw;
+    width: 35rem;
+    height: 35rem;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #0B2C5D;
-    padding-top: 4vw;
+    padding-top: 4rem;
 }
 
 /*Resume Button*/
 .resume-button {
   display: inline-block;
-  margin-top: 0.1vw;
+  margin-top: 0.1rem;
   padding: 10px 30px;
   background-color: #000c26;
   color: white;
@@ -188,16 +188,16 @@ body {
     background-color: #000c26;
     text-decoration: underline skyblue;
     justify-content: center;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     margin: 0px;
 }
 
 .about-me .self-branding h5 {
     font-family: sans-serif;
-    font-size: 1.6vw;
+    font-size: 1.6rem;
     line-height: 1.6;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 20rem;
+    padding-right: 20rem;
     text-indent: 40px;
     font-weight: lighter;
     padding-bottom: 30px;
@@ -207,8 +207,8 @@ body {
 .header {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 2vw;
-    font-size: 1vw;
+    padding-bottom: 2rem;
+    font-size: 1rem;
 }
 
 .background {
@@ -219,11 +219,11 @@ body {
 }
 
 .timeline {
-    max-width: 35vw;
+    max-width: 35rem;
     border-right: 1px solid #ffffff33;
-    padding-right: 8vw;
+    padding-right: 8rem;
     text-align: left;       
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 .background .timeline ul {
@@ -236,10 +236,10 @@ body {
 }
 
 .interests {
-    padding-left: 8vw;
-    max-width: 35vw;
+    padding-left: 8rem;
+    max-width: 35rem;
     text-align: left;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 
@@ -247,8 +247,8 @@ body {
 .skills {
     display: flex;
     justify-content: center;
-    padding-top: 2.5vw;
-    padding-bottom: 2.5vw;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 ul {
@@ -257,11 +257,11 @@ ul {
 
 /**__________Technical Skills__________**/
 .flip-card1 {
-    width: 15vw;
-    height: 10vw;
-    perspective: 50vw;
-    padding-right: 5vw;
-    font-size: 0.75vw;
+    width: 15rem;
+    height: 10rem;
+    perspective: 50rem;
+    padding-right: 5rem;
+    font-size: 0.75rem;
 }
 
 .technical {
@@ -282,7 +282,7 @@ ul {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    border-radius: 0.5vw;
+    border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -290,7 +290,7 @@ ul {
 
 .technical .flip-card-back1 {
     text-align: left;
-    padding-left: 1vw;
+    padding-left: 1rem;
 }
 
 .flip-card-front1 {
@@ -306,10 +306,10 @@ ul {
 
 /**__________Soft Skills__________**/
 .flip-card2 {
-    width: 15vw;
-    height: 10vw;
-    perspective: 50vw;
-    font-size: 0.75vw;
+    width: 15rem;
+    height: 10rem;
+    perspective: 50rem;
+    font-size: 0.75rem;
 }
 
 .soft {
@@ -330,7 +330,7 @@ ul {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    border-radius: 0.5vw;
+    border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -349,7 +349,7 @@ ul {
 
 .soft .flip-card-back2 {
     text-align: left;
-    padding-left: 1vw;
+    padding-left: 1rem;
 }
 
 
@@ -358,56 +358,60 @@ ul {
 .projects-headers {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 2vw;
-    font-size: 1vw;
+    padding-bottom: 2rem;
+    font-size: 1rem;
 }
 
 .seperator {
     display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 2vw;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 2rem;
 }
 
 .personal-website {
     display: flex;
-    width: 35vw;
+    width: 40rem;
     border-right: 1px solid #ffffff33;
-    padding-right: 6.5vw;
+    padding-right: 3rem;
+    justify-content: flex-end;
 }
 
 .sari-sari-store-prices {
     display: flex;
-    width: 35vw;
+    width: 40rem;
+    padding-left: 3rem;
+    justify-content: flex-start;
 }
 
 .personal-website img{
     height: auto;
-    width: 20vw;
-    margin-right: 1vw;
+    width: 20rem;
+    margin-right: 1rem;
 }
 
 .sari-sari-store-prices img {
     height: auto;
-    width: 12.5vw;
-    margin-right: 1vw;
+    width: 12.5rem;
+    margin-right: 1rem;
 }
 
 .seperator h5 {
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 .text-button-seperator1 .button {
   display: inline-block;
-  margin-top: 0.1vw;
-  padding: 0.5vw 1.5vw;
+  margin-top: 0.1rem;
+  padding: 0.5rem 1.5rem;
   background-color: #152238;
   color: white;
-  border-radius: 2.5vw;
+  border-radius: 2.5rem;
   font-weight: bold;
   border: 1px solid #1a3a6d;
-  width: 6vw;
+  width: 6rem;
   font-family: sans-serif;
-  padding-right: 0.5vw;
+  padding-right: 0.5rem;
 }
 
 .text-button-seperator1 {
@@ -416,14 +420,14 @@ ul {
 }
 
 .personal-website .text-button-seperator1 a {
-    font-size: 1vw;
-    padding-right: 1.5vw;
+    font-size: 1rem;
+    padding-right: 1.5rem;
 }
 
 .sari-sari-store-prices .text-button-seperator1 a {
-    font-size: 1vw;
-    padding-right: 1.5vw;
-    margin-top: 2vw;
+    font-size: 1rem;
+    padding-right: 1.5rem;
+    margin-top: 2rem;
 }
 
 
@@ -432,15 +436,15 @@ ul {
 .contacts {
     text-align: center;
     background-color: #001440;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .contacts a {
     display: inline-block;
     background-color: black;
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     object-fit: cover;
     overflow: hidden;
@@ -448,11 +452,13 @@ ul {
 }
 
 .contacts img {
-    width: 2.5vw;
+    width: 2.5rem;
 }
 
 .contacts h2, h4 {
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 }
+
+/*Phone Media*/
