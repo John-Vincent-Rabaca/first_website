@@ -204,11 +204,9 @@ body {
 }
 
 /**__________Education Background__________**/
-.header {
-    display: flex;
-    justify-content: space-evenly;
+.timeline h2, .interests h2 {   
     padding-bottom: 2rem;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .background {
@@ -355,6 +353,10 @@ ul {
 
 
 /**--------------------Projects--------------------**/
+.about-me-header {
+    padding-bottom: 2rem;
+}
+
 .projects-headers {
     display: flex;
     justify-content: space-evenly;
@@ -371,7 +373,10 @@ ul {
 
 .personal-website {
     display: flex;
-    width: 40rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 35rem;
     border-right: 1px solid #ffffff33;
     padding-right: 3rem;
     justify-content: flex-end;
@@ -379,9 +384,18 @@ ul {
 
 .sari-sari-store-prices {
     display: flex;
-    width: 40rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 35rem;
     padding-left: 3rem;
     justify-content: flex-start;
+}
+
+.personal-website h2, 
+.sari-sari-store-prices h2 {
+    margin-bottom: 1.5rem;  
+    width: 100%;            
 }
 
 .personal-website img{
@@ -402,7 +416,6 @@ ul {
 
 .text-button-seperator1 .button {
   display: inline-block;
-  margin-top: 0.1rem;
   padding: 0.5rem 1.5rem;
   background-color: #152238;
   color: white;
@@ -417,6 +430,7 @@ ul {
 .text-button-seperator1 {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .personal-website .text-button-seperator1 a {
@@ -427,10 +441,7 @@ ul {
 .sari-sari-store-prices .text-button-seperator1 a {
     font-size: 1rem;
     padding-right: 1.5rem;
-    margin-top: 2rem;
 }
-
-
 
 /**--------------------Contacts--------------------**/
 .contacts {
@@ -632,7 +643,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #0B2C5D;
-    padding-top: 4rem;
+    padding-top: 7rem;
 }
 
 /*Resume Button*/
@@ -875,7 +886,7 @@ ul {
 
 .seperator h5 {
     font-size: 1rem;
-    width: 30rem;
+    width: 20rem;
 }
 
 .text-button-seperator1 .button {
