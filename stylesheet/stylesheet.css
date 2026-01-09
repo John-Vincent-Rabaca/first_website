@@ -161,7 +161,8 @@ body {
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #0B2C5D;
-    padding-top: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
 }
 
 /*Resume Button*/
@@ -476,6 +477,10 @@ ul {
 
 @media (max-width: 768px) {
 /**--------------------GENERAL--------------------**/
+* {
+        box-sizing: border-box;
+    }
+
 html {
   scroll-behavior: smooth;
 }
@@ -523,7 +528,10 @@ h1, h2, h3, h4, h5, h6 {
 /**To remove empty white space between Home and About**/
 body {
     margin: 0px;
-    background-color: #000c26
+    background-color: #000c26;
+    padding: 0;
+    overflow-x: hidden; /* This is the ultimate "emergency brake" for side-scrolling */
+    width: 100%;
 }
 
 /**--------------------Navigation Bar--------------------**/
@@ -535,11 +543,9 @@ body {
     width: 100%;
     background-color: #152238;
     z-index: 1000;
-    padding-right: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 0; 
     flex-direction: column; 
     padding-bottom: 10px;
 }
@@ -643,7 +649,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #0B2C5D;
-    padding-top: 7rem;
+    margin-top: 7rem;
 }
 
 /*Resume Button*/
